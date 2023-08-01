@@ -69,7 +69,7 @@
   infeasible to break, under the existing well supported RSA 2-prime standard.
 - However, to solve this RSA limiting issue, I developed an adaptation of
   3-prime RSA that I believe allows arbitrary RSA encryption for any token
-  sequence. In this case, the limiting factor become the actual "hash"
+  sequence. In this case, the limiting factor becomes the actual "hash"
   encryption of the token sequence. For 32 tokens, this would be 32-bit hash
   encryption, which similarly to above could be probably be pushed to 128-bit
   with relatively limited loss in model performance. Therefore, if my slight
