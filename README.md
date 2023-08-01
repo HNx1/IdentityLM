@@ -197,7 +197,7 @@
 - To solve this, we will lever ideas of public key cryptography and hash
   functions
 - Core idea: Across the entire sequence, anyone with the public key can still
-  figure out the groups at any stage. Our encryption will instead decide which
+  figure out the token groups at any stage. Our encryption will instead decide which
   group is biased at each stage and closely replicate private key encrypted
   hashes at fixed intervals using this statistical bias. The detector will then
   use the public key to try and verify a correct encryption similar to the
