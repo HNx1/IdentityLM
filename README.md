@@ -125,8 +125,8 @@
 
 ### Background
 
-- Recently a [https://arxiv.org/pdf/2301.10226.pdf](paper about watermarking LM
-  output) was awarded outstanding paper at ICML, which brought it to my
+- Recently a [https://arxiv.org/pdf/2301.10226.pdf](paper) about watermarking LM
+  output was awarded outstanding paper at ICML, which brought it to my
   attention. It's a very interesting paper - I highly recommend reading it as it
   basically explains the logic behind the logit biasing and token grouping, and
   also why I'm excited about minimal perplexity loss and the potential of beam
