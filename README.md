@@ -223,7 +223,7 @@
 - Let's walk through signing and detection.
 - Let K be the token standard, i.e. the length of each hash we will look to
   replicate.
-- Freely generate K token, then hash them with the public key modulus appended
+- Freely generate K tokens, then hash them with the public key modulus appended
   to the front, and raise this to the power of the private key. Reduce this mod
   r (the third prime that we make public). This gives a K-bit binary number, as
   r is less than 2^K.
