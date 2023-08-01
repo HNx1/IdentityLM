@@ -125,7 +125,7 @@
 
 ### Background
 
-- Recently a [paper] (https://arxiv.org/pdf/2301.10226.pdf) about watermarking LM
+- Recently a [paper](https://arxiv.org/pdf/2301.10226.pdf) about watermarking LM
   output was awarded outstanding paper at ICML, which brought it to my
   attention. It's a very interesting paper - I highly recommend reading it as it
   explains the logic behind the logit biasing and token grouping, and
