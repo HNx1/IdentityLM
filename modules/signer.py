@@ -21,7 +21,7 @@ class IdentitySigner():
         self.token_standard=token_standard
         self.device=device
         self.bias=3.0
-        self.bias_add_factor=4.0
+        self.bias_add_factor=6.0
         self.maximum_generation=maximum_generation
         self.digest_size=digest_size
         self.model=model
