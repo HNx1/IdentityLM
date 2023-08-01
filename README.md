@@ -252,7 +252,7 @@
   Therefore, for each chunk we can write a K-bit binary number indicating which
   group the generation was in. We take that binary number and raise it to the
   power of the public key exponent. This will recover the original chunk hash
-  generated. If these match, then we've detected that the chunk was encrypted.
+  generated. If these match, then we've detected that the chunk was signed by the user associated with the public key supplied to the detector.
   Now remember we statistically generated the tokens, so we also need to check
   similar (i.e. that agree in all but M places) binary numbers to the one we
   actually had in the generation as the signing process may not have exactly
