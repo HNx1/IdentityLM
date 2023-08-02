@@ -2,7 +2,7 @@
 
 - IdentityLM is a method of cryptographic proof of identity that is encoded
   directly into language model output.
-- The core idea is that at each token generation, We can use a hash function to create a deterministic "message"
+- The core idea is that at each token generation, we can use a hash function to create a deterministic "message"
   from the sequence generated so far (to prevent injection). We then encrypt this message with our private key.
   This encrypted message is used to bias the probability distribution of the model, without materially reducing performance.
   This passes the encrypted message, or something very similar (i.e. that agrees in all but a few places), directly into the generated text.
