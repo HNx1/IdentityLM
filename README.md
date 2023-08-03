@@ -137,10 +137,10 @@
 ### Background
 
 - Recently a [paper](https://arxiv.org/pdf/2301.10226.pdf) about watermarking LM
-  output was awarded outstanding paper at ICML, which brought it to my
-  attention. It's a very interesting paper - I highly recommend reading it as it
-  explains the logic behind the logit biasing and token grouping, and also why
-  I'm excited about minimal perplexity loss and the potential of beam search.
+  output was awarded outstanding paper at ICML. It's a very interesting paper -
+  I highly recommend reading it as it explains the logic behind the logit
+  biasing and token grouping, and also why I'm excited about minimal perplexity
+  loss and the potential of beam search.
 - The paper focuses on distinguishing model generated vs human content - how can
   OpenAI for example mark GPT-4 output so that they can find it in the future?
   The logit biasing they use really piqued my interest and I started thinking
